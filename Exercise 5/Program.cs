@@ -51,5 +51,15 @@ namespace Exercise_5
             if (dzaky == null)
                 naufal = null;
         }
+
+        public void display()
+        {
+            if (dzaky == null)
+            {
+                Console.WriteLine("Kosong");
+                return;
+            }
+            Node display;
+        }
     }
 }
