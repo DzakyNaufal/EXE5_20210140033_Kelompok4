@@ -12,6 +12,18 @@ namespace Exercise_5
         public Node next;
        
     }
-    
+    class Queue
+    {
+        Node dzaky, naufal;
+        public Queue()
+        {
+            dzaky = null;
+            naufal = null;
+        }
+
+        public void insert()
+        {
+
+        }
     }
 }
