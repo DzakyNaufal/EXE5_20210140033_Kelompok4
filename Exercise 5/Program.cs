@@ -39,6 +39,17 @@ namespace Exercise_5
             dzaky = nodeBaru;
         }
 
-       
+        public void delete()
+        {
+            if (dzaky == null)
+            {
+                Console.WriteLine("Kosong!!");
+                return;
+            }
+            naufal = naufal.next;
+
+            if (dzaky == null)
+                naufal = null;
+        }
     }
 }
