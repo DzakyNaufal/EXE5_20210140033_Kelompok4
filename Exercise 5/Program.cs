@@ -88,7 +88,23 @@ namespace Exercise_5
                                 q.insert(nm);
                             }
                             break;
-                        
+                        case '2':
+                            {
+                                q.delete();
+                            }
+                            break;
+                        case '3':
+                            {
+                                q.display();
+                            }
+                            break;
+                        case '4':
+                            return;
+                        default:
+                            {
+                                Console.WriteLine("Invalid Option!!");
+                            }
+                            break;
                     }
                 }
                 catch (Exception e)
