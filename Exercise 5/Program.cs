@@ -21,9 +21,24 @@ namespace Exercise_5
             naufal = null;
         }
 
-        public void insert()
+        public void insert(string nm)
         {
+            Console.Write("\nMasukkan nama Mahasiswa");
+            nm = Console.ReadLine();
+            Node nodeBaru = new Node();
+            nodeBaru.nama = nm;
+            nodeBaru.next = null;
 
+            if (dzaky == null)
+            {
+                dzaky = nodeBaru;
+                naufal = nodeBaru;
+                return;
+            }
+            naufal.next = nodeBaru;
+            dzaky = nodeBaru;
         }
+
+       
     }
 }
