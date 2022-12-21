@@ -80,6 +80,14 @@ namespace Exercise_5
                     Console.WriteLine();
                     switch (ch)
                     {
+                        case '1':
+                            {
+                                Console.Write("Enter a number: ");
+                                string nm = Console.ReadLine();
+                                Console.WriteLine();
+                                q.insert(nm);
+                            }
+                            break;
                         
                     }
                 }
