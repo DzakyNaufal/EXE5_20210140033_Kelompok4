@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace Exercise_5
 {
-    internal class Program
+    class Program
     {
-        static void Main(string[] args)
-        {
-        }
+        int dzaky, naufal, max = 5;
+        int[] queue_array = new int[5];
+
+        
+
     }
 }
